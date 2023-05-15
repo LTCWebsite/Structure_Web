@@ -5,17 +5,16 @@ import MyBarChart from "../../Components/MyBarChart";
 import { USER_KEY } from "../../Constants/index";
 import Axios from "../../Components/Axios/Axios";
 import Grid from "@mui/material/Unstable_Grid2";
-import { fadeIn } from 'react-animations';
-import Radium, { StyleRoot } from 'radium';
+import { fadeIn } from "react-animations";
+import Radium, { StyleRoot } from "radium";
 import moment from "moment/moment";
-
 
 const styles = {
   fadeIn: {
-    animation: 'x 1s',
-    animationName: Radium.keyframes(fadeIn, 'fadeIn')
-  }
-}
+    animation: "x 1s",
+    animationName: Radium.keyframes(fadeIn, "fadeIn"),
+  },
+};
 
 function Dashboard() {
   const [getToken, setToken] = useState("");
@@ -24,8 +23,9 @@ function Dashboard() {
   const tokenData = JSON.parse(localStorage.getItem(USER_KEY));
 
   const headers = {
-    Authorization: `Bearer ${JSON.parse(localStorage.getItem(USER_KEY))?.token
-      }`,
+    Authorization: `Bearer ${
+      JSON.parse(localStorage.getItem(USER_KEY))?.token
+    }`,
   };
 
   useEffect(() => {
@@ -235,16 +235,18 @@ function Dashboard() {
         <div style={styles.fadeIn} className="manage-container">
           <div className="home_header_title">ພາບລວມຂໍ້ມູນ</div>
           <Grid container>
-            <h3 style={{ marginBottom: '.5rem', color: '#777' }} className="title-h3">ປະເພດເບີ</h3>
+            <h3
+              style={{ marginBottom: ".5rem", color: "#777" }}
+              className="title-h3"
+            >
+              ປະເພດເບີ
+            </h3>
             <Grid xs={12}>
-              <Grid
-                container
-                spacing={2}
-              >
+              <Grid container spacing={2}>
                 <Grid xs={2}>
                   <div className="wapper-dasborad">
                     <div className="ds-box">
-                      <div >
+                      <div>
                         <p className={labelPhone[0]}>{labelPhone[0]}</p>
                         <div className="home_card_type">ເບີລາຍເດືອນ</div>
                       </div>
@@ -252,8 +254,8 @@ function Dashboard() {
                         {loading
                           ? componentLoading()
                           : typeMphone === undefined
-                            ? "0"
-                            : typePostpaid}
+                          ? "0"
+                          : typePostpaid}
                       </div>
                     </div>
                     <div className="card-preview_postpaid"></div>
@@ -261,9 +263,7 @@ function Dashboard() {
                 </Grid>
                 <Grid xs={2}>
                   <div className="wapper-dasborad">
-                    <div
-                      className="ds-box"
-                    >
+                    <div className="ds-box">
                       <div>
                         <p className={labelPhone[1]}>{labelPhone[1]}</p>
                         <div className="home_card_type">ເບີຕື່ມເງີນ</div>
@@ -272,8 +272,8 @@ function Dashboard() {
                         {loading
                           ? componentLoading()
                           : typePostpaid === undefined
-                            ? "0"
-                            : typeMphone}
+                          ? "0"
+                          : typeMphone}
                       </div>
                     </div>
                     <div className="card-preview_mphone"></div>
@@ -281,9 +281,7 @@ function Dashboard() {
                 </Grid>
                 <Grid xs={2}>
                   <div className="wapper-dasborad">
-                    <div
-                      className="ds-box"
-                    >
+                    <div className="ds-box">
                       <div>
                         <div className={labelPhone[2]}>{labelPhone[2]}</div>
                         <div className="home_card_type">ບໍ່ພົບປະເພດເບີ</div>
@@ -292,8 +290,8 @@ function Dashboard() {
                         {loading
                           ? componentLoading()
                           : typeHSPA === undefined
-                            ? "0"
-                            : typeUndefine}
+                          ? "0"
+                          : typeUndefine}
                       </div>
                     </div>
                     <div className="card-preview_undefine"></div>
@@ -301,9 +299,7 @@ function Dashboard() {
                 </Grid>
                 <Grid xs={2}>
                   <div className="wapper-dasborad">
-                    <div
-                      className="ds-box"
-                    >
+                    <div className="ds-box">
                       <div>
                         <div className={labelPhone[3]}>{labelPhone[3]}</div>
                         <div className="home_card_type">ເນັດບ້ານ</div>
@@ -312,8 +308,8 @@ function Dashboard() {
                         {loading
                           ? componentLoading()
                           : typeLTCInhouse === undefined
-                            ? "0"
-                            : typeLTCInhouse}
+                          ? "0"
+                          : typeLTCInhouse}
                       </div>
                     </div>
                     <div className="card-preview_LTCInhouse"></div>
@@ -321,9 +317,7 @@ function Dashboard() {
                 </Grid>
                 <Grid xs={2}>
                   <div className="wapper-dasborad">
-                    <div
-                      className="ds-box"
-                    >
+                    <div className="ds-box">
                       <div>
                         <div className={labelPhone[4]}>{labelPhone[4]}</div>
                         <div className="home_card_type">ມືຖືຕັ້ງໂຕະ</div>
@@ -332,8 +326,8 @@ function Dashboard() {
                         {loading
                           ? componentLoading()
                           : typeWinPhone === undefined
-                            ? "0"
-                            : typeWinPhone}
+                          ? "0"
+                          : typeWinPhone}
                       </div>
                     </div>
                     <div className="card-preview_WinPhone"></div>
@@ -341,9 +335,7 @@ function Dashboard() {
                 </Grid>
                 <Grid xs={2}>
                   <div className="wapper-dasborad">
-                    <div
-                      className="ds-box"
-                    >
+                    <div className="ds-box">
                       <div>
                         <div className={labelPhone[5]}>{labelPhone[5]}</div>
                         <div className="home_card_type">ເບີເນັດ</div>
@@ -352,23 +344,33 @@ function Dashboard() {
                         {loading
                           ? componentLoading()
                           : typeWinPhone === undefined
-                            ? "0"
-                            : typeHSPA}
+                          ? "0"
+                          : typeHSPA}
                       </div>
                     </div>
                     <div className="card-preview_hspa"></div>
                   </div>
                 </Grid>
                 <Grid xs={12}>
-                  <h3 style={{ color: '#777' }} className="title-h3">ການເຄື່ອນໄຫວ</h3>
+                  <h3 style={{ color: "#777" }} className="title-h3">
+                    ການເຄື່ອນໄຫວ
+                  </h3>
                 </Grid>
                 <Grid xs={4}>
-                  <div className="wapper-dasborad"
+                  <div
+                    className="wapper-dasborad"
                     style={{
-                      paddingTop: '1rem',
+                      paddingTop: "1rem",
                       marginBottom: "1rem",
-                    }}>
-                    <div className="num-boder" style={{ display: 'flex', justifyContent: 'space-between' }}>
+                    }}
+                  >
+                    <div
+                      className="num-boder"
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                      }}
+                    >
                       <div className="home_grid_text">ຈໍານວນເບີທັງໝົດ</div>
                       <div className="home_grid_icon">
                         <IconMSISDN />
@@ -377,21 +379,31 @@ function Dashboard() {
                     <div style={{ display: "flex" }}>
                       <div>
                         <div className="home_grid_all">
-                          {loading ? componentLoading() : allNumber.toLocaleString()}{" "}
+                          {loading
+                            ? componentLoading()
+                            : allNumber.toLocaleString()}{" "}
                           <span>ເບີ</span>
                         </div>
                         <div className="home_grid_update">
-                          ອັບເດດລ່າສຸດ: {moment(getDateNumber).format("DD/MM/YYYY HH:mm")}
+                          ອັບເດດລ່າສຸດ:{" "}
+                          {moment(getDateNumber).format("DD/MM/YYYY HH:mm")}
                         </div>
                       </div>
                     </div>
-
                   </div>
-                  <div className="wapper-dasborad"
+                  <div
+                    className="wapper-dasborad"
                     style={{
-                      paddingTop: '1rem',
-                    }}>
-                    <div className="num-boder" style={{ display: 'flex', justifyContent: 'space-between' }}>
+                      paddingTop: "1rem",
+                    }}
+                  >
+                    <div
+                      className="num-boder"
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                      }}
+                    >
                       <div className="home_grid_text">ຈໍານວນແພັກເກັດທັງໝົດ</div>
                       <div className="home_grid_icon">
                         <IconPk />
@@ -400,23 +412,29 @@ function Dashboard() {
                     <div style={{ display: "flex" }}>
                       <div>
                         <div className="home_grid_all">
-                          {loading ? componentLoading() : allPackage.toLocaleString()}{" "}
+                          {loading
+                            ? componentLoading()
+                            : allPackage.toLocaleString()}{" "}
                           <span>ແພັກເກັດ</span>
                         </div>
                         <div className="home_grid_update">
-                          ອັບເດດລ່າສຸດ: {moment(getDatePackage).format("DD/MM/YYYY HH:mm")}
+                          ອັບເດດລ່າສຸດ:{" "}
+                          {moment(getDatePackage).format("DD/MM/YYYY HH:mm")}
                         </div>
                       </div>
                     </div>
-
                   </div>
                 </Grid>
                 <Grid xs={8}>
                   <div className="wapper-dasborad">
-                    <div className="ds-title" style={{ display: 'flex', justifyContent: 'space-between' }}>
-                      <h3 className="text-title">
-                        ການປຽບທຽບປະເພດເບີ
-                      </h3>
+                    <div
+                      className="ds-title"
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <h3 className="text-title">ການປຽບທຽບປະເພດເບີ</h3>
                       {/* <p className="showing">ສະແດງ: years</p> */}
                     </div>
                     <div className="wapper-graph">
@@ -430,7 +448,6 @@ function Dashboard() {
           </Grid>
         </div>
       </StyleRoot>
-
     </>
   );
 }

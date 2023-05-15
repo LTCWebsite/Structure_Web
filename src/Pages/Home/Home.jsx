@@ -16,8 +16,6 @@ import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
 import { Route, Switch, useHistory, useLocation } from "react-router-dom";
 import { USER_KEY } from "../../Constants/index";
-import Dashboard from "../Dashboard/Dashboard";
-import Manage from "../Manage/Manage";
 import logo2 from "../../Image/VIP-logo.svg";
 import book from "../../Image/VIP_Inhouse.pdf";
 
@@ -35,14 +33,9 @@ import {
   IconManual,
 } from "../Icon/Icon";
 import Auth from "../../Components/Auth/Auth";
-import CategoryPage from "../Group/CategoryPage";
-import GroupPage from "../Group/GroupPage";
-import PackagePage from "../Package/PackagePage";
-import AddPhonePage from "../Manage/AddPhonePage";
 import Profile from "../Profile/Profile";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import Collapse from "@mui/material/Collapse";
 import HomeReport from "../Report/HomeReport";
 import HomeRole from "../UserSetting/HomeRole";
 import Dashboard1 from "../Dashboard/Dashboard1";
