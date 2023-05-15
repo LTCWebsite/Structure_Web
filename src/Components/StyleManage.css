@@ -1,0 +1,230 @@
+.manage-container,
+.css-bsph2u-MuiTableCell-root {
+  font-family: "Poppins", "Noto Sans Lao", sans-serif !important;
+  color: #2d3436;
+}
+
+.phoneType-M-Phone {
+  margin-left: 0.5rem;
+  background-color: #fff2d0;
+  border-radius: 2rem;
+  padding: 0.2em 1em;
+  font-size: 0.75rem;
+  color: #6e6e6e;
+}
+
+.phoneType-HSPA {
+  margin-left: 0.5rem;
+  background-color: #fcd9db;
+  border-radius: 2rem;
+  padding: 0.1em 1em;
+  font-size: 0.75rem;
+  color: #6e6e6e;
+}
+
+.phoneType-Postpaid {
+  margin-left: 0.5rem;
+  background-color: #f57f87;
+  border-radius: 2rem;
+  padding: 0.2em 1em;
+  font-size: 0.75rem;
+  color: #fff;
+}
+
+.phoneType-FTTH {
+  margin-left: 0.5rem;
+  background-color: #c3fabf;
+  border-radius: 2rem;
+  padding: 0.2em 1em;
+  font-size: 0.75rem;
+  color: #6e6e6e;
+}
+
+.type-ADSL {
+  margin-left: 0.5rem;
+  background-color: #f9f2eb;
+  border-radius: 2rem;
+  padding: 0.2em 1em;
+  font-size: 0.75rem;
+  color: #6e6e6e;
+}
+
+.manage-ft-text {
+  font-size: 0.875rem;
+  padding-bottom: 0.2rem;
+  padding-left: 0.2rem;
+  color: #71717a;
+}
+
+.text-p-add p {
+  padding-bottom: 0.25rem;
+}
+
+.list-add {
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.list-add td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+.list-add tr:nth-child(even) {
+  background-color: #f9faff;
+}
+
+.list-add tr:hover {
+  background-color: #ddd;
+}
+
+.list-add th {
+  text-align: left;
+  background-color: #f3f4f6;
+  color: #777;
+  font-weight: bold !important;
+  font-family: "Poppins", "Noto Sans Lao", sans-serif !important;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  padding: 8px 16px;
+}
+
+.list-add td {
+  font-family: "Poppins", "Noto Sans Lao", sans-serif !important;
+  height: 40px;
+  color: #2d3436;
+}
+
+.my-textadd fieldset {
+  border-top-left-radius: 7px !important;
+  border-bottom-left-radius: 7px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.remen {
+  border-radius: 50%;
+  padding: 2.5px 10px;
+  background: #f14d58;
+  color: #fff;
+  text-align: center;
+  font: 14px "Poppins", sans-serif;
+  margin-right: 0.4rem;
+}
+
+.remen-2 {
+  border-radius: 50%;
+  padding: 2.5px 8.5px;
+  background: #f14d58;
+  color: #fff;
+  text-align: center;
+  font: 14px "Poppins", sans-serif;
+  margin-right: 0.4rem;
+}
+
+.box-upload {
+  padding: 1rem;
+  border: 2px dashed #ddd;
+  border-radius: 10px;
+}
+
+.sub-package {
+  font-family: "Poppins", "Noto Sans Lao", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.sub-package th {
+  text-align: left;
+  background-color: #f2f2f2 !important;
+  color: #2d3436 !important;
+  font-family: "Poppins", "Noto Sans Lao", sans-serif;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+}
+
+.sub-package td {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 8px 15px;
+}
+
+.sub-package th:nth-child(1) {
+  text-align: left !important;
+}
+
+.sub-text {
+  color: #777;
+  padding-top: 0.4rem;
+}
+
+.sub-detail {
+  font-family: "Poppins", "Noto Sans Lao", sans-serif !important;
+  color: #2d3436 !important;
+  font-size: 0.875rem !important;
+  margin-left: 0.5rem !important;
+  padding: 5px;
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #f2f2f2;
+}
+
+.list-phone {
+  font-family: "Poppins", "Noto Sans Lao", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.list-phone th {
+  text-align: left;
+  background-color: #f3f4f6;
+  color: #777;
+  font-weight: bold !important;
+  font: 14px "Noto Sans Lao", sans-serif;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  padding: 8px 16px;
+}
+
+.list-phone td {
+  font-family: "Poppins", "Noto Sans Lao", sans-serif !important;
+}
+
+/* .list-phone td:nth-child(1),
+.list-phone td:nth-child(8),
+.list-phone td:nth-child(9) {
+  border-bottom: none !important;
+}
+
+.list-phone td:nth-child(7) {
+  border-bottom: 1px solid #ddd !important;
+}
+
+.css-bsph2u-MuiTableCell-root {
+  border-bottom: none !important;
+}
+
+.css-1ce3qcx-MuiTableCell-root {
+  border-bottom: 1px solid #ddd !important;
+} */
+
+.list-phone th:nth-child(1),
+.list-phone th:nth-child(8),
+.list-phone th:nth-child(9) {
+  text-align: center;
+}
+
+.list-phone td:nth-child(2) {
+  text-align: left !important;
+}
+
+
+.MuiPaginationItem-text {
+  font-family: "Poppins", "Noto Sans Lao", sans-serif !important;
+
+}

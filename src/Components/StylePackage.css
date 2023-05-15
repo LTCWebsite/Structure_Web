@@ -1,0 +1,46 @@
+.container-pk {
+     font-family: "Poppins", "Noto Sans Lao", sans-serif;
+     color: #2d3436;
+     padding: 0px 1.5rem;
+}
+
+.list-pk {
+     font-family: "Poppins", sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+}
+
+.list-pk td {
+     border-bottom: 1px solid #ddd;
+     padding: 8px;
+}
+
+.list-pk tr:nth-child(even) {
+     background-color: #f9faff;
+}
+
+.list-pk tr:hover {
+     background-color: #ddd;
+}
+
+.list-pk th {
+     text-align: left;
+     background-color: #f3f4f6;
+     color: #777;
+     font-weight: bold !important;
+     font: 14px "Noto Sans Lao", sans-serif;
+     border-bottom: 1px solid #ddd;
+     border-top: 1px solid #ddd;
+     padding: 8px 10px;
+}
+
+.list-pk th:nth-child(1) {
+     text-align: center;
+}
+
+.list-pk td {
+     font-family: "Poppins", "Noto Sans Lao", sans-serif;
+     /* height: 15px; */
+     padding: .8rem .5rem;
+     color: #2d3436;
+}

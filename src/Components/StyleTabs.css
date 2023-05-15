@@ -1,0 +1,31 @@
+.css-heg063-MuiTabs-flexContainer {
+     /* border-bottom: #ddd 1px solid; */
+}
+.css-jpln7h-MuiTabs-scroller button {
+     font-family: "Poppins", "Noto Sans Lao", sans-serif !important;
+     color: #777 !important;
+     font-weight: 300 !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+     background-color: #fff !important;
+     color: #F14D58 !important;
+     font-weight: bold !important;
+     font-family:"Poppins", "Noto Sans Lao", sans-serif !important;
+     border: 1px solid #dddddd;
+     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+     min-height: 38px !important;
+     padding: 0rem 1rem !important;
+     font-weight: bold !important;
+}
+.css-1ujnqem-MuiTabs-root{
+     min-height: 0 !important;
+}
+.con-tab{
+     border-bottom-left-radius: 7px;
+     border-bottom-right-radius: 7px;
+     background-color: #fff !important;
+     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}

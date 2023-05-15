@@ -1,0 +1,129 @@
+.title-h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.text-des {
+  padding-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: #777;
+}
+
+.report-update {
+  background: linear-gradient(90deg,
+      rgba(237, 28, 41, 1) 0%,
+      rgba(241, 77, 88, 1) 100%);
+  padding: 0.35rem 0.7rem;
+  border-radius: 0.3rem;
+}
+
+.report-update p {
+  font-size: .875rem;
+  color: #fff;
+}
+
+.report-status p {
+  font-size: 1.2rem;
+}
+
+.list-report {
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.list-report td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.list-report tr:nth-child(even) {
+  background-color: #f9faff;
+}
+
+.list-report tr:hover {
+  background-color: #ddd;
+}
+
+.list-report th {
+  text-align: left;
+  background-color: #f3f4f6;
+  color: #777;
+  font-weight: bold !important;
+  font: 14px "Noto Sans Lao", sans-serif;
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+}
+
+.list-report td {
+  font-family: "Poppins", "Noto Sans Lao", sans-serif;
+  height: 27px;
+  color: #2d3436;
+  vertical-align: middle;
+}
+
+.list-report td:nth-child(2) {
+  text-align: right;
+}
+
+.list-report th:nth-child(2) {
+  text-align: right;
+}
+
+.list-type {
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.list-type td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.list-type tr:nth-child(even) {
+  background-color: #f9faff;
+}
+
+.list-type th {
+  /* background-color: #f3f4f6; */
+  color: #777;
+  /* font-weight: bold !important; */
+  font: 14px "Noto Sans Lao", sans-serif;
+  border: 1px solid #ddd;
+  padding: 3px 0px;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+.list-type th span {
+  padding-bottom: .3rem;
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  width: 23px !important;
+}
+
+.list-type td {
+  font-family: "Poppins", "Noto Sans Lao", sans-serif;
+  height: 27px;
+  color: #2d3436;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.list-type th.header {
+  width: 3.8% !important;
+  /* background: #2d3436 !important; */
+}
+
+.list-type th.title-re {
+  vertical-align: middle;
+}
+
+.list-type th.title-re2 {
+  padding: .5rem 0rem;
+}

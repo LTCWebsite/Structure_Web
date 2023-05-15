@@ -1,0 +1,19 @@
+@font-face {
+     font-family: 'NotoSanRegular';
+     src: local('NotoSanRegular'), url(./Fonts/NotoSansLao-Regular.ttf) format('truetype');
+   
+     font-family: 'NotoSanBold';
+     src: local('NotoSanBold'), url(./Fonts/NotoSansLao-Bold.ttf) format('truetype');
+   
+     font-family: 'NotoSanMedium';
+     src: local('NotoSanMedium'), url(./Fonts/NotoSansLao-Medium.ttf) format('truetype');
+   
+     font-family: 'NotoSanLight';
+     src: local('NotoSanLight'), url(./Fonts/NotoSansLao-Light.ttf) format('truetype');
+   
+     font-family: 'NotoSanExtraLight';
+     src: local('NotoSanExtraLight'), url(./Fonts/NotoSansLao-ExtraLight.ttf) format('truetype');
+   }
+
+
+   

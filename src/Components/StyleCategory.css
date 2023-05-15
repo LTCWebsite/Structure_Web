@@ -1,0 +1,95 @@
+.my-card-list {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.container-cate {
+  font-family: "Poppins", "Noto Sans Lao", sans-serif !important;
+  color: #2d3436;
+  padding: 0px 0.5rem;
+}
+
+.wapper-cate {
+  border-radius: 11px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  background: #fff;
+}
+
+.content-cate {
+  padding: 0.5rem 1rem;
+}
+
+.list-cate {
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.list-cate td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+.list-cate tr:nth-child(even) {
+  background-color: #f9faff;
+}
+
+.list-cate tr:hover {
+  background-color: #ddd;
+}
+
+.list-cate th {
+  text-align: left;
+  background-color: #f3f4f6;
+  color: #777;
+  font-weight: bold !important;
+  font: 14px "Noto Sans Lao", sans-serif;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  padding: 12px 10px;
+}
+
+.list-cate td {
+  font-family: "Poppins", "Noto Sans Lao", sans-serif;
+  height: 30px;
+  color: #2d3436;
+  vertical-align: middle;
+}
+
+.img-cate {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.bor-cate {
+  width: 20%;
+  height: 1px;
+  margin: 0px auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.con-loading {
+  font-family: "Noto Sans Lao", sans-serif !important;
+  min-height: 50vh;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.con-loading p {
+  /* border: 1px solid #000; */
+  color: #777;
+  justify-content: center;
+  text-align: center;
+}
+
+.animation {
+  /* border: 1px solid #000; */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
